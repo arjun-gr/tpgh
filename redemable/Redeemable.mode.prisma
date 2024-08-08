@@ -1,0 +1,7 @@
+model Redeemable {
+    id          String  @id @default(auto()) @map("_id") @db.ObjectId
+    memberId    String
+    comissionId String
+    amount      String
+    redeemed    Boolean
+}
